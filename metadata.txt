@@ -18,7 +18,7 @@ tracker=https://github.com/lazicsasalaki/7ParamTransform/issues
 
 tags=helmert,transformation,7-parameter,geodesy,least squares,error ellipse,baarda
 
-icon=icon.png
+
 
 hasProcessingProvider=no
 experimental=False
