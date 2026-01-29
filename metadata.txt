@@ -1,0 +1,25 @@
+[general]
+name=7-Param Helmert Transform
+qgisMinimumVersion=3.0
+description=Least squares 7-parameter Helmert transformation with error ellipses and Baarda data snooping
+version=1.0.0
+author=Saša Lazić, dipl.inž. geodezije
+email=geoalatiplus@gmail.com
+about=Plugin for 7-parameter Helmert transformation with statistical analysis
+changelog=Initial version with error ellipses and outlier detection
+
+[ini]
+settings=@ByteArray(SevenParamTransform)
+
+category=Geodesy
+homepage=https://github.com/lazicsasalaki/7ParamTransform
+repository=https://github.com/lazicsasalaki/7ParamTransform.git
+tracker=https://github.com/lazicsasalaki/7ParamTransform/issues
+
+tags=helmert,transformation,7-parameter,geodesy,least squares,error ellipse,baarda
+
+icon=icon.png
+
+hasProcessingProvider=no
+experimental=False
+deprecated=False

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SevenParamTransformDialog</class>
+ <widget class="QDialog" name="SevenParamTransformDialog">
+  <layout class="QVBoxLayout">
+
+   <item>
+    <widget class="QRadioButton" name="lsRadio">
+     <property name="text">
+      <string>LS – izračunaj 7 parametara</string>
+     </property>
+     <property name="checked">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+
+   <item>
+    <widget class="QLabel" name="authorLabel">
+     <property name="text">
+      <string>
+Author : Sasa Lazic, dipl.inž. geodezije
+Kontakt : geoalatiplus@gmail.com
+      </string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="styleSheet">
+      <string>color: gray; font-size: 10px;</string>
+     </property>
+    </widget>
+   </item>
+
+   <item>
+    <widget class="QLineEdit" name="pointsFileEdit"/>
+   </item>
+
+   <item>
+    <widget class="QPushButton" name="pointsBrowseBtn">
+     <property name="text">
+      <string>Browse points.txt</string>
+     </property>
+    </widget>
+   </item>
+
+   <item>
+    <widget class="QPushButton" name="runButton">
+     <property name="text">
+      <string>RUN</string>
+     </property>
+     <property name="styleSheet">
+      <string>font-weight: bold; color: white; background-color: #0066cc; padding: 5px;</string>
+     </property>
+    </widget>
+   </item>
+
+  </layout>
+ </widget>
+</ui>
